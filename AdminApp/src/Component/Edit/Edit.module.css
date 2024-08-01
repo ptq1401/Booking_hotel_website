@@ -1,0 +1,59 @@
+.container {
+  height: 99vh;
+}
+.container h3 {
+  text-align: start;
+  color: #adb5bd;
+  margin: 15px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  border: 1px solid #eaeaea;
+  font-size: 18px;
+  box-shadow: 5px 5px 5px #dadada;
+}
+.container form {
+  margin: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 150px;
+  border: 1px solid #eaeaea;
+  box-shadow: 5px 5px 5px #dadada;
+  padding: 30px 30px;
+}
+.container form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  color: #000;
+}
+.container form input {
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+  height: 32px;
+  padding: 10px;
+}
+.container form select {
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+  height: 32px;
+  padding: 5px;
+}
+.notify {
+  font-style: italic;
+  font-size: 14px;
+  color: #495057;
+}
+.button {
+  background-color: #339af0;
+  color: #fff;
+  height: 40px;
+  width: 250px;
+  border: none;
+  font-size: 18px;
+}
+.button:hover {
+  background-color: #1864ab;
+  transform: scale(1.1);
+}

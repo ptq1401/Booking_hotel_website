@@ -1,0 +1,40 @@
+.container {
+  margin-left: 1vw;
+  color: #868e96;
+  display: grid;
+  grid-template-columns: 15vw 83vw;
+}
+.sidebar {
+  border-right: 2px solid #ced4da;
+  height: auto;
+  width: 15vw;
+}
+.container h2 {
+  text-align: center;
+  color: #7950f2;
+  /* background-color: bisque; */
+  border-bottom: 2px solid #ced4da;
+  padding: 10px;
+  font-size: 24px;
+}
+.container ul {
+  list-style: none;
+}
+.container ul li {
+  color: #868e96;
+  font-size: 14px;
+  margin: 10px 0;
+  margin-left: 20px;
+}
+.container ul li i {
+  color: #7950f2;
+  font-size: 20px;
+  width: 35px;
+}
+.link {
+  text-decoration: none;
+  color: #868e96;
+}
+.link:hover {
+  color: #7950f2;
+}

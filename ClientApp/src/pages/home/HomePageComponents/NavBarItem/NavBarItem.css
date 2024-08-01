@@ -1,0 +1,42 @@
+.navbar {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: #fff;
+  width: 1100px;
+}
+
+.navbar-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.icon-border {
+  padding: 15px;
+  border-radius: 30px;
+  border: 2px solid #fff;
+}
+
+nav {
+  display: flex;
+  gap: 40px;
+}
+
+.navbar button {
+  width: 100px;
+  height: 30px;
+  margin-left: 20px;
+}
+
+.navbar button:hover {
+  transform: scale(1.15);
+}

@@ -1,0 +1,11 @@
+const express = require("express");
+const router = express.Router();
+const hotelController = require("../controller/hotel");
+router.post("/add-hotel", hotelController.addHotel);
+router.get("/get-hotel", hotelController.getHotel);
+router.get("/quantity-hotel", hotelController.getQuantityHotel);
+router.post("/get-hotel-option", hotelController.getHotelByOption);
+router.post("/get-detail-hotel", hotelController.getDetailHotel);
+router.post("/delete-hotel", hotelController.deleteHotel);
+router.post("/edit-hotel", hotelController.editHotel);
+module.exports = router;
